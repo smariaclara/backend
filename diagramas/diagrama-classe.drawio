@@ -1,0 +1,24 @@
+<mxfile host="app.diagrams.net" modified="2023-08-25T18:19:28.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bgeUeBrydeM_KD7E50TI" version="21.6.9" type="device">
+  <diagram name="Página-1" id="KIPqIH-1cirJTHMQhyte">
+    <mxGraphModel dx="362" dy="202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YfjrdxUUnIYph8qhaVMX-1" value="Tigre (Panthera tigris)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="280" width="160" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="YfjrdxUUnIYph8qhaVMX-2" value="+ sexo: string&lt;br&gt;+ idade: int&lt;br&gt;+ região: string&lt;br&gt;+ tamanho: int&lt;br&gt;+ peso: int&lt;br&gt;+ subespécie: string&lt;br&gt;+ listras: string&lt;br&gt;+ cheiro: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YfjrdxUUnIYph8qhaVMX-1">
+          <mxGeometry y="26" width="160" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="YfjrdxUUnIYph8qhaVMX-5" value="" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="YfjrdxUUnIYph8qhaVMX-1">
+          <mxGeometry y="150" width="160" height="140" as="geometry">
+            <mxRectangle y="150" width="160" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YfjrdxUUnIYph8qhaVMX-4" value="+ correr(): void&lt;br&gt;+ caçar(): void&lt;br&gt;+ comer(): void&lt;br&gt;+ dormir(): void&lt;br&gt;+ procriar(): void&lt;br&gt;+ nadar(): void&lt;br&gt;+ marcar território(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="YfjrdxUUnIYph8qhaVMX-5">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
