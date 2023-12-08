@@ -1,0 +1,26 @@
+@model IEnumerable<_atividadeCrud.Models.BrincoColarPulseira>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<p>
+    <a asp-area="" asp-controller="Joia" asp-action="Create">Cadastrar</a>
+</p>
+
+<div class="row">
+@foreach (var item in Model)
+{
+    <div class="col-12 col-lg-3">
+        <div class="card">
+        <img class="card-img-top" style="height: 300px" src="@Html.DisplayFor(modelItem => item.Imagem)" alt="Imagem da capa do card">
+            <div class="card-body text-center">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Nome)</h5>
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Descricao)</p>
+                <a asp-action="Edit" asp-route-id="@item.BrincoColarPulseiraId">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.BrincoColarPulseiraId">Details</a>
+                <a asp-action="Delete" asp-route-id="@item.BrincoColarPulseiraId">Delete</a>
+            </div>
+        </div>
+    </div>
+}

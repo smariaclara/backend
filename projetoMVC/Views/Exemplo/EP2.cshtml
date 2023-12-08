@@ -1,0 +1,17 @@
+<button class="btn btn-outline-dark">Clique aqui :)</button>
+<p>Não vai acontecer nada se você clicar</p>
+@{
+    string nome = "Maria";
+}
+<p>OLÁ, @nome</p>
+<P>Hoje é @DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss").</P>
+@{
+    bool mostrarMensagem = true;
+    if(mostrarMensagem == true){
+        <p>Está é uma mensagem que está enclausulada dentro do IF (que nem eu estou enclausulada nessa vida sofrida de estudantes)</p>
+    }
+    for (var i = 1; i <= 10; i++){
+        int res = i*10;
+        <p>10 x @i = @res</p>
+    }
+}
